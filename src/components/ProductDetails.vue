@@ -84,33 +84,7 @@
                                     <p>{{ product.description }}</p>
                                 </div><!-- End .product-content -->
 
-                                <!-- <div class="details-filter-row details-row-size">
-                                    <label>Color:</label>
-
-                                    <div class="product-nav product-nav-thumbs">
-                                        <a href="#" class="active">
-                                            <img src="/assets/images/products/single/1-thumb.jpg" alt="product desc">
-                                        </a>
-                                        <a href="#">
-                                            <img src="/assets/images/products/single/2-thumb.jpg" alt="product desc">
-                                        </a>
-                                    </div>
-                                </div> -->
-
-                                <!-- <div class="details-filter-row details-row-size">
-                                    <label for="size">Size:</label>
-                                    <div class="select-custom">
-                                        <select name="size" id="size" class="form-control">
-                                            <option value="#" selected="selected">Select a size</option>
-                                            <option value="s">Small</option>
-                                            <option value="m">Medium</option>
-                                            <option value="l">Large</option>
-                                            <option value="xl">Extra Large</option>
-                                        </select>
-                                    </div>
-
-                                    <a href="#" class="size-guide"><i class="icon-th-list"></i>size guide</a>
-                                </div> -->
+                              
 
                                 <div class="details-filter-row details-row-size">
                                     <label for="qty">Qty:</label>
@@ -167,11 +141,7 @@
                             <div class="product-desc-content">
                                 <h3>Product Information</h3>
                                 <p>{{ product.description }}</p>
-                                <!-- <ul>
-                                    <li>Nunc nec porttitor turpis. In eu risus enim. In vitae mollis elit. </li>
-                                    <li>Vivamus finibus vel mauris ut vehicula.</li>
-                                    <li>Nullam a magna porttitor, dictum risus nec, faucibus sapien.</li>
-                                </ul> -->
+                              
 
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. </p> -->
                             </div><!-- End .product-desc-content -->
@@ -179,19 +149,8 @@
                         <div class="tab-pane fade" id="product-info-tab" role="tabpanel" aria-labelledby="product-info-link">
                             <div class="product-desc-content">
                                 <!-- <h3>Information</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. </p>
-
-                                <h3>Fabric & care</h3>
-                                <ul>
-                                    <li>Faux suede fabric</li>
-                                    <li>Gold tone metal hoop handles.</li>
-                                    <li>RI branding</li>
-                                    <li>Snake print trim interior </li>
-                                    <li>Adjustable cross body strap</li>
-                                    <li> Height: 31cm; Width: 32cm; Depth: 12cm; Handle Drop: 61cm</li>
-                                </ul>
-
-                                <h3>Size</h3>
+                            
+                               
                                 <p>one size</p> -->
                             </div><!-- End .product-desc-content -->
                         </div><!-- .End .tab-pane -->
