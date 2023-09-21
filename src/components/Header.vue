@@ -15,11 +15,11 @@ async function getCategories(){
 }
 </script>
 <template>
-    <header class="header header-intro-clearance header-4">
+    <header class="header header-intro-clearance header-4 bg-dark">
         <div class="header-top">
             <div class="container">
-                <div class="header-left">
-                    <a href="tel:#"><i class="icon-phone"></i>Call: +880 1914 090747</a>
+                <div class="header-left" >
+                    <a href="tel:#" style="color: blueviolet;"><i class="icon-phone"></i>Call: +880 1927166288</a>
                 </div><!-- End .header-left -->
 
                 <div class="header-right">
@@ -39,18 +39,6 @@ async function getCategories(){
                                         </div><!-- End .header-menu -->
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="header-dropdown">
-                                        <a href="#">English</a>
-                                        <div class="header-menu">
-                                            <ul>
-                                                <li><a href="#">English</a></li>
-                                                <li><a href="#">Bangla</a></li>
-                                            </ul>
-                                        </div><!-- End .header-menu -->
-                                    </div>
-                                </li>
-                                <li><a href="#signin-modal" data-toggle="modal">Sign in / Sign up</a></li>
                             </ul>
                         </li>
                     </ul><!-- End .top-menu -->
@@ -68,8 +56,7 @@ async function getCategories(){
                     </button>
                     
                     <router-link to="/" class="logo">
-                        Vue-Commerce
-                        <!-- <img src="assets/images/demos/demo-4/logo.png" alt="Molla Logo" width="105" height="25"> -->
+                        eCommerce
                     </router-link>
                 </div>
 
@@ -87,50 +74,24 @@ async function getCategories(){
                 </div>
 
                 <div class="header-right">
-                    <div class="dropdown compare-dropdown">
-                        <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static" title="Compare Products" aria-label="Compare Products">
-                            <div class="icon">
-                                <i class="icon-random"></i>
-                            </div>
-                            <p>Compare</p>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <ul class="compare-products">
-                                <li class="compare-product">
-                                    <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
-                                    <h4 class="compare-product-title"><a href="product.html">Blue Night Dress</a></h4>
-                                </li>
-                                <li class="compare-product">
-                                    <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
-                                    <h4 class="compare-product-title"><a href="product.html">White Long Skirt</a></h4>
-                                </li>
-                            </ul>
-
-                            <div class="compare-actions">
-                                <a href="#" class="action-link">Clear All</a>
-                                <a href="#" class="btn btn-outline-primary-2"><span>Compare</span><i class="icon-long-arrow-right"></i></a>
-                            </div>
-                        </div><!-- End .dropdown-menu -->
-                    </div><!-- End .compare-dropdown -->
-
+                    
                     <div class="wishlist">
                         <a href="wishlist.html" title="Wishlist">
-                            <div class="icon">
+                            <div class="icon" style="color: blueviolet;">
                                 <i class="icon-heart-o"></i>
                                 <span class="wishlist-count badge">3</span>
                             </div>
-                            <p>Wishlist</p>
+                            <p style="color: blueviolet;">Wishlist</p>
                         </a>
                     </div><!-- End .compare-dropdown -->
 
                     <div class="dropdown cart-dropdown">
                         <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-                            <div class="icon">
+                            <div class="icon" style="color: blueviolet;">
                                 <i class="icon-shopping-cart"></i>
                                 <span class="cart-count">2</span>
                             </div>
-                            <p>Cart</p>
+                            <p style="color: blueviolet;">Cart</p>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right">
@@ -197,7 +158,7 @@ async function getCategories(){
                 <div class="header-left">
                     <div class="dropdown category-dropdown">
                         <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static" title="Browse Categories">
-                            Browse Categories <i class="icon-angle-down"></i>
+                             Categories <i class="icon-angle-down"></i>
                         </a>
 
                         <div class="dropdown-menu">
@@ -229,9 +190,7 @@ async function getCategories(){
                     </nav><!-- End .main-nav -->
                 </div><!-- End .header-center -->
 
-                <div class="header-right">
-                    <i class="la la-lightbulb-o"></i><p>Clearance<span class="highlight">&nbsp;Up to 30% Off</span></p>
-                </div>
+               
             </div><!-- End .container -->
         </div><!-- End .header-bottom -->
     </header><!-- End .header -->
